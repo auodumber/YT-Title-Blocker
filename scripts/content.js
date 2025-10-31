@@ -1,5 +1,5 @@
 const titleSelector = "h1.style-scope.ytd-watch-metadata > .style-scope.ytd-watch-metadata";
-const ytPlayerTitleSelector = 'a[data-sessionlink="feature=player-title"]';
+const ytPlayerTitleSelector = "h2.ytPlayerOverlayVideoDetailsRendererTitle.ytPlayerOverlayVideoDetailsRendererSingleLineTitle > span.yt-core-attributed-string.yt-core-attributed-string--white-space-pre-wrap";
 
 function clearTitle() {
   if (document.title && document.title.trim() !== "") {
